@@ -1,0 +1,5 @@
+/* Empty out standard App.css since we use index.css for all styling */
+.app-container {
+    width: 100%;
+    margin: 0 auto;
+}
