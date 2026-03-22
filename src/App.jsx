@@ -50,7 +50,7 @@ function App() {
       const ai = new GoogleGenAI({ apiKey: apiKey });
       
       const response = await ai.models.generateImages({
-        model: 'gemini-3-pro-image-preview',
+        model: 'gemini-1.5-pro',
         prompt: `A beautiful kid-friendly fairy tale book illustration of: ${story}. Vibrant colors, magical, enchanting, high quality, masterpiece.`,
         config: {
           numberOfImages: 1,
